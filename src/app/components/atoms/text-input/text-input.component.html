@@ -1,0 +1,6 @@
+    <div [ngSwitch]="type">
+      <input type="{{type}}" [type]="type" [ngClass]="{'form-control': type!='checkbox', 'form-check-input': type==='checkbox'}" [value]="value"
+      (input)="value=getValue($event)" (change)="change()"/>
+      <span *ngIf="error" class="text-danger">{{error}}</span>
+      <label *ngIf="type === 'checkbox'" for="{{field}}" class="form-check-label">{{label}}</label>
+    </div>

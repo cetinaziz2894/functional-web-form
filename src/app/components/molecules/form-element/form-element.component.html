@@ -1,0 +1,4 @@
+<div class="form-group">
+  <label *ngIf="type != 'checkbox'">{{label}}</label>
+    <app-text-input [label]="label" [hidden]="hidden" [field]="field" [type]="type" [mandatory]='mandatory' [error]="error"></app-text-input>
+  </div>

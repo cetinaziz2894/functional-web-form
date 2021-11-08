@@ -1,0 +1,9 @@
+<div class="container h-100 d-flex align-items-center justify-content-center">
+    <div class="col-6">
+        <app-title title="Functional Web Form"></app-title>
+        <div *ngIf="inputs.length > 0">
+            <app-form  [inputs]="inputs"></app-form>
+        </div>
+    </div>
+</div>
+
