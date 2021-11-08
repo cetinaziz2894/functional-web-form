@@ -1,27 +1,50 @@
-# FunctionalWebForm
+# Functional Web Form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+## Available Scripts
 
-## Development server
+First clone the app then, in the project directory, you can run:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Clone the app
+```bash
+git clone https://github.com/cetinaziz2894/functional-web-form.git
+```
 
-## Code scaffolding
+### Install packages
+```bash
+cd functional-web-form
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Start the app
+```bash
+npm run start
+```
 
-## Build
+Runs the app in the development mode.\
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Test the app
+```bash
+npm run test
+```
 
-## Running unit tests
+### Build the app
+```bash
+npm run build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Running end-to-end tests
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project Overview
 
-## Further help
+This is a demo project for dynamic form. I hope you like this demo.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Used Tecknologies
+
+- Angular 12
+- Bootstrap
+
